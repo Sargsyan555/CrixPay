@@ -25,7 +25,7 @@ const partnersData = [
 
 const Partners = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-20">
+    <div id="partners" className="w-full flex flex-col items-center justify-center py-20">
       <h3 className="pb-20 font-Roboto font-bold text-4xl leading-[75px] text-center tracking-wide uppercase text-white">
         Partners
       </h3>

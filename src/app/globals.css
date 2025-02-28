@@ -11,3 +11,30 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes move {
+  0% {
+    top: 40%;
+    left: 0%;
+  }
+  25% {
+    top: 0%;
+    left: 50%;
+  }
+  50% {
+    top: 40%;
+    left: 100%;
+  }
+  75% {
+    top: 60%;
+    left: 50%;
+  }
+  100% {
+    top: 40%;
+    left: 0%;
+  }
+}
+
+.animate-move {
+  animation: move 10s ease-in-out infinite;
+}
+

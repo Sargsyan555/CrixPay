@@ -22,6 +22,9 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      blur: {
+        custom: "90.7882px", // Add custom blur value
+      },
     },
   },
   plugins: [],

@@ -1,11 +1,21 @@
 const About = () => {
   return (
-    <div className="container mx-auto my-[96px] p-8 flex justify-center items-center ">
-      <div className="max-w-3xl text-center">
+    <div
+      id="about"
+      className="relative  mx-auto my-[96px] p-8 flex justify-center w-full items-center "
+    >
+      <div className=" text-center container">
         <h2 className="font-roboto font-bold text-6xl text-white mb-4">
           ABOUT US
         </h2>
-        <p className="text-white mt-10">
+        <div
+          className="w-48 h-48  absolute top-1/2 left-0 transform -translate-x-1/2"
+          style={{
+            background: "rgba(4, 240, 251, 1)",
+            filter: "blur(90.7882px)",
+          }}
+        ></div>
+        <p className="text-white mt-10 w-full">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -24,6 +34,40 @@ const About = () => {
           because it is pain, but because occasionally circumstances occur in
           which toil and pain can procure him some great pleasure.
         </p>
+        <div className="flex md:flex-row flex-col w-full justify-around  mt-30">
+          <div>
+            <p className="text-[#04F0FB] font-roboto font-bold text-[48px] leading-[56px] tracking-[0.04em] text-center uppercase">
+              100
+            </p>
+            <p className="font-roboto font-bold text-[24px] leading-[28px] text-center tracking-[0.04em] uppercase text-white">
+              Customers
+            </p>
+          </div>
+          <div>
+            <p className="text-[#04F0FB] font-roboto font-bold text-[48px] leading-[56px] tracking-[0.04em] text-center uppercase">
+              30
+            </p>
+            <p className="font-roboto font-bold text-[24px] leading-[28px] text-center tracking-[0.04em] uppercase text-white">
+              Partners
+            </p>
+          </div>
+          <div>
+            <p className="text-[#04F0FB] font-roboto font-bold text-[48px] leading-[56px] tracking-[0.04em] text-center uppercase">
+              100
+            </p>
+            <p className="font-roboto font-bold text-[24px] leading-[28px] text-center tracking-[0.04em] uppercase text-white">
+              Customers
+            </p>
+          </div>
+          <div>
+            <p className="text-[#04F0FB] font-roboto font-bold text-[48px] leading-[56px] tracking-[0.04em] text-center uppercase">
+              100
+            </p>
+            <p className="font-roboto font-bold text-[24px] leading-[28px] text-center tracking-[0.04em] uppercase text-white">
+              Customers
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

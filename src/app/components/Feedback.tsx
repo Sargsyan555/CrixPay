@@ -52,11 +52,27 @@ const Feedback = () => {
   }
 
   return (
-    <div className="w-full flex flex-col items-center justify-center py-20 bg-[#030D2380]">
+    <div className="w-full relative flex flex-col items-center justify-center py-20 bg-[#030D2380]">
       <h3 className="pb-20 font-Roboto font-bold text-4xl leading-[75px] text-center tracking-wide uppercase text-white">
         Clients Feedback
       </h3>
-
+      <div className="absolute right-0 top-1/4">
+          <div
+            className="w-48 h-48 bg-gradient-to-r  transform -translate-x-1/2 "
+            style={{
+              background: "rgba(0, 215, 203, 0.7)",
+              filter: "blur(90.7882px)",
+            }}
+          ></div>
+      
+        <div
+          className="w-48 h-48 bg-gradient-to-r left-0  bottom-0 "
+          style={{
+            background: "rgba(6, 79, 161, 1)",
+            filter: "blur(90.7882px)",
+          }}
+        ></div>
+      </div>
       <div className="container flex flex-col md:flex-row justify-between">
         {/* Feedback card */}
         <div>
@@ -106,3 +122,6 @@ const Feedback = () => {
 };
 
 export default Feedback;
+/* Ellipse 3 */
+
+

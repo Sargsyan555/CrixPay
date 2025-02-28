@@ -1,5 +1,5 @@
 import About from "./components/About";
-import BusinessSolutions from "./components/BusinessSolutions";
+import BusinessSolutions from "./components/Hero";
 import Contact from "./components/Contact";
 import Feedback from "./components/Feedback";
 import Partners from "./components/Partners";
