@@ -1,17 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('/fonts/icomoon.eot?x5nkip');
-  src: url('/fonts/icomoon.eot?x5nkip#iefix') format('embedded-opentype'),
-       url('/fonts/icomoon.ttf?x5nkip') format('truetype'),
-       url('/fonts/icomoon.woff?x5nkip') format('woff'),
-       url('/fonts/icomoon.svg?x5nkip#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?w0exwd');
+  src:  url('/fonts/icomoon.eot?w0exwd#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?w0exwd') format('truetype'),
+    url('/fonts/icomoon.woff?w0exwd') format('woff'),
+    url('/fonts/icomoon.svg?w0exwd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
-}
-
-.icon {
-  font-family: 'Icomoon' !important;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -29,45 +25,61 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Vector:before {
-  content: "\e909";
+.icon-fi_1383329:before {
+  content: "\e900";
+  color: #fff;
 }
-.icon-Vector-1:before {
-  content: "\e90a";
-}
-.icon-Lesson:before {
+.icon-fi_1383326:before {
   content: "\e901";
   color: #fff;
 }
-.icon-fi_1067256:before {
+.icon-fi_1383330-1:before {
   content: "\e902";
   color: #fff;
 }
-.icon-fi_2010990:before {
-  content: "\e903";
-  color: #fff;
-}
-.icon-fi_2222414:before {
+.icon-Lesson:before {
   content: "\e904";
   color: #fff;
 }
-.icon-fi_3159274:before {
+.icon-fi_1067256:before {
   content: "\e905";
   color: #fff;
 }
-.icon-fi_3159305:before {
+.icon-fi_13833261:before {
   content: "\e906";
   color: #fff;
 }
-.icon-fi_3159310:before {
+.icon-fi_13833291:before {
   content: "\e907";
   color: #fff;
 }
-.icon-fi_7790559:before {
-  content: "\e908";
+.icon-fi_2010990:before {
+  content: "\e90b";
   color: #fff;
 }
-.icon-fi_3159305-3:before {
-  content: "\e900";
+.icon-fi_2222414:before {
+  content: "\e90c";
   color: #fff;
+}
+.icon-fi_3159274:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-fi_3159305:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-fi_3159310:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-fi_7790559:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-image-5:before {
+  content: "\e911";
+}
+.icon-image-6:before {
+  content: "\e912";
 }
